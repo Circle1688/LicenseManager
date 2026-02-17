@@ -1,5 +1,5 @@
 services:
   license-manager:
-    image: ghcr.io/Circle1688/LicenseManager:v1.0.0
+    image: ghcr.io/circle1688/license-manager:v1.0.0
     container_name: license-manager-git
     restart: unless-stopped
