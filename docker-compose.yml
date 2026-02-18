@@ -2,4 +2,8 @@ services:
   license-manager:
     image: ghcr.io/circle1688/license-manager:v1.0.0
     container_name: license-manager-git
+    ports:
+      - "7860:7860"
     restart: unless-stopped
+    volumes:
+      - ./PEM:/LicenseManager/PEM
